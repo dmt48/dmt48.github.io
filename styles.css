@@ -112,9 +112,11 @@ h1 {
   margin-right:4.85vw;
   margin-top:18.93vw;
   height: auto;
-  background-color:none;
+  background-color:#ffffff;
 }
-
+body {
+  background-color:#ffffff;
+}
 * {
   margin:0;
   padding:0;
