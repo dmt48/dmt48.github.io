@@ -1,0 +1,140 @@
+.tab_text {
+  background:none;
+  
+  margin-top:1.46vw;
+  font-size:3.16vw;
+  line-height:4.85vw;
+  letter-spacing:0.02vw;
+}
+.tab_img img{
+  background:none;
+  
+  display:block;
+  margin:auto;
+  width:5.83vw;
+  height:5.83vw;
+  
+  object-fit:contain;
+}
+.tab_img {
+  background-color:none;
+  
+  display:block;
+  width:15.53vw;
+  height:6.8vw;
+  margin:auto;
+  margin-top:2.91vw;
+  padding:0.49vw 4.85vw;
+  box-sizing:border-box;
+  border-radius:8.5vw;
+}
+.tab {
+  background-color:none;
+  
+  text-align:center;
+  display:inline-block;
+  width:48.06vw;
+  height:100%;
+  box-sizing:border-box;
+}
+.tabbar {
+  background-color:#ffffff;
+  
+  color:#A2ACB0;
+  font-family: "Roboto-SemiBold";
+  position:fixed;
+  box-sizing:border-box;
+  bottom:0;
+  padding:0 1.94vw;
+  width:100vw;
+  height:19.9vw;
+  
+}
+
+
+blockquote#firstBlockquote {
+    margin-top:4.85vw;
+}
+blockquote {
+  font-family: "Roboto-Regular";
+  position:relative;
+  padding: 1.46vw 1.46vw 1.94vw 2.91vw;
+  font-size:3.64vw;
+  line-height:5.34vw;
+  letter-spacing:0.04vw;
+  background-color: #EBF0FD;
+  border-left: 0.73vw solid #007AFF;
+  border-radius: 0.97vw;
+  margin-top:2.43vw;
+}
+blockquote::before {
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:0.19vw;
+  background-color: #007AFF;
+}
+
+.quote_icon_container {
+  width:2.91vw;
+  height:2.91vw;
+  position:absolute;
+  top:0;
+  right:1.46vw;
+}
+ul {
+  padding-left:5.83vw;
+  margin:0;
+}
+
+
+.title {
+  margin-top: 9.47vw;
+}
+h1 {
+  font-family: 'Roboto-Bold', normal;
+  font-weight: bold;
+  font-size: 6.8vw;
+  line-height:8.74vw;
+  letter-spacing:0.02vw;
+}
+
+.cover {
+  margin: auto;
+  width: 41.26vw;
+  height: 41.26vw;
+}
+
+.content {
+  margin-left:4.85vw;
+  margin-right:4.85vw;
+  margin-top:18.93vw;
+  height: auto;
+  background-color:green;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('fonts/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-SemiBold';
+    src: url('fonts/Roboto-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
