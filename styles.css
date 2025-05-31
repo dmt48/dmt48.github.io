@@ -1,3 +1,25 @@
+.button_bg button {
+  background-color:#007AFF;
+  
+  color:#ffffff;
+  font-size:4.13vw;
+  line-height:6.31vw;
+  letter-spacing:0.02vw;
+  border:none;
+  border-radius:1.94vw;
+  width:90.29vw;
+  height:12.14vw;
+}
+.button_bg {
+  background-color:red;
+  
+  position:fixed;
+  bottom:0;
+  box-sizing:border-box;
+  padding:4.85vw;
+  height:21.84vw;
+}
+
 .tab_text {
   background:none;
   
