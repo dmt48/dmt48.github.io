@@ -74,7 +74,11 @@
   
 }
 
-
+.free_zone {
+  width:100%;
+  height:41.75vw;
+  background:green;
+}
 blockquote#firstBlockquote {
     margin-top:4.85vw;
 }
