@@ -16,8 +16,6 @@
   border-radius:1.94vw;
   width:90.29vw;
   height:12.14vw;
-  transition: background-color 0.3s ease, transform 0.1s ease;
-  
 }
 .button_bg {
   background-color:#ffffff;
