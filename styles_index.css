@@ -1,9 +1,8 @@
 .button_bg button:hover {
-  background:#007AFF;
+  background:#268EFF;
 }
 .button_bg button:active {
-  background: #409BFF;
-  background: radial-gradient(circle, rgba(36, 138, 255, 1) 40%, rgba(0, 122, 255, 1) 70%);
+  background: #59A9FF;
 }
 .button_bg button {
   background-color:#007AFF;
