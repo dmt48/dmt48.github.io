@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="styles_education.css">
     <meta charset="utf-8" />
   <title>EconomyBasics bot</title>
+  <script>
+    function openLesson1() {
+        window.location.href = 'lesson.html';
+    }
+</script>
 </head>
 <body>
 <div class="content">
@@ -16,7 +21,7 @@
     <div class="headline"><h2>Основные уроки</h2></div>
 
       <table class="cell_list">
-    <tr class="cell">
+    <tr class="cell" onclick="openLesson1()">
       <td class="icon_container"><img src="img/icons/blue/article.svg"></td>
       <td class="text_container"><div class="lesson_name">Основы экономики</div><div class="lesson_time">5-10 минут</div></td>
     </tr>
