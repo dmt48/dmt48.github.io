@@ -6,6 +6,9 @@
     <meta charset="utf-8" />
   <title>EconomyBasics bot</title>
   <script>
+    function openDictionary() {
+        window.location.href = '/dictionary.html'
+    }
     function openLesson1() {
         window.location.href = '/lesson/lesson1.html';
     }
@@ -84,6 +87,6 @@
     <div class="free_zone"></div>
 </div>
 <!--tabbar starts here-->
-<div class="tabbar"><div class="tab"><div class="tab_img"><img src="img/icons/grey/lightbulb.svg"></div><p class="tab_text">Словарь</p></div><div class="tab" id="active"><div class="tab_img"><img src="img/icons/blue/actions.svg"></div><p class="tab_text">Обучение</p></div></div>
+<div class="tabbar"><div class="tab" onclick="openDictionary()"><div class="tab_img"><img src="img/icons/grey/lightbulb.svg"></div><p class="tab_text">Словарь</p></div><div class="tab" id="active"><div class="tab_img"><img src="img/icons/blue/actions.svg"></div><p class="tab_text">Обучение</p></div></div>
 </body>
 </html>
