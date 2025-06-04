@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="/styles.css">
     <meta charset="utf-8" />
   <title>EconomyBasics bot</title>
+    <script>
+    function openEducation() {
+        window.location.href = '/education.html'
+    }
+    function openLesson1() {
+        window.location.href = '/lesson/lesson1.html';
+    }
+    function openLesson2() {
+        window.location.href = '/lesson/lesson2.html';
+    }
+</script>
 </head>
 <body>
 <div class="content">
@@ -25,6 +36,6 @@
     <div class="free_zone"></div>
 </div>
 <!--tabbar starts here-->
-<div class="tabbar"><div class="tab" id="active"><div class="tab_img"><img src="/img/icons/blue/lightbulb.svg"></div><p class="tab_text">Словарь</p></div><div class="tab"><div class="tab_img"><img src="/img/icons/grey/actions.svg"></div><p class="tab_text">Обучение</p></div></div>
+<div class="tabbar"><div class="tab" id="active"><div class="tab_img"><img src="/img/icons/blue/lightbulb.svg"></div><p class="tab_text">Словарь</p></div><div class="tab" onclick="openEducation()"><div class="tab_img"><img src="/img/icons/grey/actions.svg"></div><p class="tab_text">Обучение</p></div></div>
 </body>
 </html>
