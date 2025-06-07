@@ -35,3 +35,12 @@ function openLesson9() {
 function openLesson10() {
         window.location.href = '/lesson/lesson10.html';
 }
+function openLessonMore1() {
+        window.location.href = '/lesson/more/lesson1.html';
+}
+function openLessonMore2() {
+        window.location.href = '/lesson/more/lesson2.html';
+}
+function openLessonMore3() {
+        window.location.href = '/lesson/more/lesson3.html';
+}
