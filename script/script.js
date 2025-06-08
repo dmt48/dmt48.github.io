@@ -44,3 +44,7 @@ function openLessonMore2() {
 function openLessonMore3() {
         window.location.href = '/lesson/more/lesson3.html';
 }
+
+function openFinal() {
+        window.location.href = '/final.html';
+}
